@@ -26,4 +26,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)greet:(id)sender {
+    NSLog(@"You clicked the button");
+    UIAlertView *alert = [[UIAlertView alloc]
+                          initWithTitle: @"Hello there"
+                          message: @"You are developing and iOS app"
+                          delegate: nil
+                          cancelButtonTitle: @"Ok!"
+                          otherButtonTitles: nil];
+    [alert show];
+}
 @end

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface XDEViewController : UIViewController
+- (IBAction)greet:(id)sender;
 
 @end
